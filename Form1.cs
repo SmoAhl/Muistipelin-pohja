@@ -13,7 +13,9 @@ namespace Muistipeli
 
     public partial class Form1 : Form
     {
-        // firstClicked points to the first Label control nnnnnnn
+        // GITHUB TESTAUS TOIMIIKO HÄ!?
+
+        // firstClicked points to the first Label control 
         // that the player clicks, but it will be null 
         // if the player hasn't clicked a label yet
         Label firstClicked = null;
@@ -176,6 +178,11 @@ namespace Muistipeli
             // That means the user won. Show a message and close the form
             MessageBox.Show("You matched all the icons!", "Congratulations");
             Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
