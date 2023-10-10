@@ -89,7 +89,7 @@
             // label16
             // 
             this.label16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label16.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label16.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label16.Location = new System.Drawing.Point(401, 377);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(126, 124);
@@ -102,7 +102,7 @@
             // label15
             // 
             this.label15.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label15.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label15.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label15.Location = new System.Drawing.Point(269, 377);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(124, 124);
@@ -115,7 +115,7 @@
             // label14
             // 
             this.label14.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label14.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label14.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label14.Location = new System.Drawing.Point(137, 377);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(124, 124);
@@ -128,7 +128,7 @@
             // label13
             // 
             this.label13.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label13.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label13.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label13.Location = new System.Drawing.Point(5, 377);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(124, 124);
@@ -141,7 +141,7 @@
             // label12
             // 
             this.label12.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label12.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label12.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label12.Location = new System.Drawing.Point(401, 252);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(126, 123);
@@ -154,7 +154,7 @@
             // label11
             // 
             this.label11.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label11.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label11.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label11.Location = new System.Drawing.Point(269, 252);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(124, 123);
@@ -167,7 +167,7 @@
             // label10
             // 
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label10.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label10.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label10.Location = new System.Drawing.Point(137, 252);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(124, 123);
@@ -180,7 +180,7 @@
             // label9
             // 
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label9.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label9.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label9.Location = new System.Drawing.Point(5, 252);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(124, 123);
@@ -193,7 +193,7 @@
             // label8
             // 
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label8.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label8.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label8.Location = new System.Drawing.Point(401, 127);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(126, 123);
@@ -206,7 +206,7 @@
             // label7
             // 
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label7.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label7.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label7.Location = new System.Drawing.Point(269, 127);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(124, 123);
@@ -219,7 +219,7 @@
             // label6
             // 
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label6.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label6.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label6.Location = new System.Drawing.Point(137, 127);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(124, 123);
@@ -232,7 +232,7 @@
             // label5
             // 
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label5.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label5.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label5.Location = new System.Drawing.Point(5, 127);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(124, 123);
@@ -245,7 +245,7 @@
             // label4
             // 
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label4.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label4.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label4.Location = new System.Drawing.Point(401, 2);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(126, 123);
@@ -258,7 +258,7 @@
             // label3
             // 
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label3.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label3.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label3.Location = new System.Drawing.Point(269, 2);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(124, 123);
@@ -271,7 +271,7 @@
             // label2
             // 
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label2.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label2.Location = new System.Drawing.Point(137, 2);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(124, 123);
@@ -284,7 +284,7 @@
             // label1
             // 
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Webdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
+            this.label1.Font = new System.Drawing.Font("Wingdings", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.label1.Location = new System.Drawing.Point(5, 2);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 123);
