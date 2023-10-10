@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
+using NAudio.Wave;
 
 namespace Muistipeli
 {
@@ -58,10 +60,30 @@ namespace Muistipeli
             }
         }
 
+
+
+        // The sounds for the game
+        private SoundPlayer clickSound;
+        private SoundPlayer pairSound;
+        private SoundPlayer endSound;
+        // Music
+        private IWavePlayer waveOutDevice;
+        private AudioFileReader audioFile;
+
+
         public Form1()
         {
             InitializeComponent();
             AssignIconsToSquares();
+
+            waveOutDevice = new WaveOut();
+            audioFile = new AudioFileReader("C:\\Users\\simoa\\source\\repos\\Muistipelin-pohja\\bin\\Debug\\background.wav");
+            waveOutDevice.Init(audioFile);
+            waveOutDevice.Play();
+
+            clickSound = new SoundPlayer("explosion.wav");
+            pairSound = new SoundPlayer("horn.wav");
+            endSound = new SoundPlayer("end.wav");
         }
 
         /// <summary>
@@ -95,6 +117,7 @@ namespace Muistipeli
                 {
                     firstClicked = clickedLabel;
                     firstClicked.ForeColor = Color.Black;
+                    clickSound.Play();
 
                     return;
                 }
@@ -105,6 +128,7 @@ namespace Muistipeli
                 // Set its color to black
                 secondClicked = clickedLabel;
                 secondClicked.ForeColor = Color.Black;
+                clickSound.Play();
 
                 // Check to see if the player won
                 CheckForWinner();
@@ -116,6 +140,7 @@ namespace Muistipeli
                 {
                     firstClicked = null;
                     secondClicked = null;
+                    pairSound.Play();
                     return;
                 }
 
@@ -176,6 +201,7 @@ namespace Muistipeli
             // If the loop didn’t return, it didn't find
             // any unmatched icons
             // That means the user won. Show a message and close the form
+            endSound.Play();
             MessageBox.Show("You matched all the icons!", "Congratulations");
             Close();
         }
